@@ -55,8 +55,6 @@ var studenti = [
 
 
 
-
-
 // CICLARE TUTTI GLI STUDENTI E STAMPARE PER OGIUNO DI ESSI NOME E COGNOME
 
 for (var i = 0; i < studenti.length; i++) {
@@ -84,7 +82,9 @@ studenti.push(nuovoStudente);
 
 
 for(var i = 0; i < studenti.length; i++) {
+    
     for( var k in studenti[i]) {
-       // console.log(k + ': ' + studente[k]);
+        console.log(k + ': ' + studenti[i][k]);
     }
+
 }
